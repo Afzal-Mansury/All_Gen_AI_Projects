@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 
 client = OpenAI(
   base_url = "https://integrate.api.nvidia.com/v1",
-  api_key = "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"
+  api_key = "key"
 )
 
 completion = client.chat.completions.create(
