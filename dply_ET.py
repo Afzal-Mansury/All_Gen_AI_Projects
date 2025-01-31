@@ -44,7 +44,7 @@ def emailtriage():
     # get list of email subjects from INBOX folder
     mailbox = MailBox('outlook.office365.com')
     #mailbox.login('payments@centelon.com', 'Zux11324', initial_folder='inbox')  # or mailbox.folder.set instead 3d arg
-    mailbox.login('afzal.mansury@centelon.com', 'mpxbljwxbdzxbvzy', initial_folder='inbox')  # or mailbox.folder.set instead 3d arg
+    mailbox.login('officialmailid', 'Password', initial_folder='inbox')  # or mailbox.folder.set instead 3d arg
     #User name: payments@centelon.com Password: Zux11324
     # afzal.mansury@centelon.com\payments@centelon.com
     for msg in mailbox.fetch(A(seen=False)):
